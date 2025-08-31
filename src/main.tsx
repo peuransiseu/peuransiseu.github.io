@@ -4,20 +4,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
-
-root.render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
-
-// createRoot(document.getElementById("root")!).render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>
-// );

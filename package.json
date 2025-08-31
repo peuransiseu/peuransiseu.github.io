@@ -2,13 +2,13 @@
   "name": "peuransiseu.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://peuransiseu.github.io/",
+  "homepage": "https://peuransiseu.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
