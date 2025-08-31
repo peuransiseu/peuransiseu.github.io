@@ -46,3 +46,11 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+// import Portfolio from "./components2/Portfolio";
+
+// const App = () => {
+//   return <Portfolio />;
+// };
+
+// export default App;

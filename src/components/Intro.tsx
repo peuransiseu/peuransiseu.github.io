@@ -13,30 +13,10 @@ const Intro = () => {
     >
       <div className="intro-container">
         <div className="name-stack">
-          <h1
-            style={{
-              fontSize: "70px",
-              fontFamily: "Geist",
-              lineHeight: "0.9",
-              marginBottom: "0",
-            }}
-          >
-            FRANCIS ANGELO
-          </h1>
-          <h1
-            style={{
-              fontSize: "150px",
-              fontFamily: "Geist-Black",
-              lineHeight: "0.8",
-              marginTop: "0",
-            }}
-          >
-            FUNDAL
-          </h1>
+          <h1 className="first-name">FRANCIS ANGELO</h1>
+          <h1 className="last-name">FUNDAL</h1>
         </div>
-        <h4 style={{ fontSize: "35px", fontFamily: "Geist-ExtraLightItalic" }}>
-          "Still trying to be better.."
-        </h4>
+        <h4 className="tagline">"Still trying to be better.."</h4>
       </div>
       <img
         src={myimage}
