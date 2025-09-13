@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Francis Fundal Portfolio</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-body homepage post-template" data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="instagram" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor"
+          d="M11 3.5h1M4.5.5h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4Zm3 10a3 3 0 1 1 0-6a3 3 0 0 1 0 6Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="facebook" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor"
+          d="M7.5 14.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Zm0 0v-8a2 2 0 0 1 2-2h.5m-5 4h5" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="twitter" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="m14.478 1.5l.5-.033a.5.5 0 0 0-.871-.301l.371.334Zm-.498 2.959a.5.5 0 1 0-1 0h1Zm-6.49.082h-.5h.5Zm0 .959h.5h-.5Zm-6.99 7V12a.5.5 0 0 0-.278.916L.5 12.5Zm.998-11l.469-.175a.5.5 0 0 0-.916-.048l.447.223Zm3.994 9l.354.353a.5.5 0 0 0-.195-.827l-.159.474Zm7.224-8.027l-.37.336l.18.199l.265-.04l-.075-.495Zm1.264-.94c.051.778.003 1.25-.123 1.606c-.122.345-.336.629-.723 1l.692.722c.438-.42.776-.832.974-1.388c.193-.546.232-1.178.177-2.006l-.998.066Zm0 3.654V4.46h-1v.728h1Zm-6.99-.646V5.5h1v-.959h-1Zm0 .959V6h1v-.5h-1ZM10.525 1a3.539 3.539 0 0 0-3.537 3.541h1A2.539 2.539 0 0 1 10.526 2V1Zm2.454 4.187C12.98 9.503 9.487 13 5.18 13v1c4.86 0 8.8-3.946 8.8-8.813h-1ZM1.03 1.675C1.574 3.127 3.614 6 7.49 6V5C4.174 5 2.421 2.54 1.966 1.325l-.937.35Zm.021-.398C.004 3.373-.157 5.407.604 7.139c.759 1.727 2.392 3.055 4.73 3.835l.317-.948c-2.155-.72-3.518-1.892-4.132-3.29c-.612-1.393-.523-3.11.427-5.013l-.895-.446Zm4.087 8.87C4.536 10.75 2.726 12 .5 12v1c2.566 0 4.617-1.416 5.346-2.147l-.708-.706Zm7.949-8.009A3.445 3.445 0 0 0 10.526 1v1c.721 0 1.37.311 1.82.809l.74-.671Zm-.296.83a3.513 3.513 0 0 0 2.06-1.134l-.744-.668a2.514 2.514 0 0 1-1.466.813l.15.989ZM.222 12.916C1.863 14.01 3.583 14 5.18 14v-1c-1.63 0-3.048-.011-4.402-.916l-.556.832Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="pinterest" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor"
+          d="m4.5 13.5l3-7m-3.236 3a2.989 2.989 0 0 1-.764-2V7A3.5 3.5 0 0 1 7 3.5h1A3.5 3.5 0 0 1 11.5 7v.5a3 3 0 0 1-3 3a2.081 2.081 0 0 1-1.974-1.423L6.5 9m1 5.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="youtube" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="m1.61 12.738l-.104.489l.105-.489Zm11.78 0l.104.489l-.105-.489Zm0-10.476l.104-.489l-.105.489Zm-11.78 0l.106.489l-.105-.489ZM6.5 5.5l.277-.416A.5.5 0 0 0 6 5.5h.5Zm0 4H6a.5.5 0 0 0 .777.416L6.5 9.5Zm3-2l.277.416a.5.5 0 0 0 0-.832L9.5 7.5ZM0 3.636v7.728h1V3.636H0Zm15 7.728V3.636h-1v7.728h1ZM1.506 13.227c3.951.847 8.037.847 11.988 0l-.21-.978a27.605 27.605 0 0 1-11.568 0l-.21.978ZM13.494 1.773a28.606 28.606 0 0 0-11.988 0l.21.978a27.607 27.607 0 0 1 11.568 0l.21-.978ZM15 3.636c0-.898-.628-1.675-1.506-1.863l-.21.978c.418.09.716.458.716.885h1Zm-1 7.728a.905.905 0 0 1-.716.885l.21.978A1.905 1.905 0 0 0 15 11.364h-1Zm-14 0c0 .898.628 1.675 1.506 1.863l.21-.978A.905.905 0 0 1 1 11.364H0Zm1-7.728c0-.427.298-.796.716-.885l-.21-.978A1.905 1.905 0 0 0 0 3.636h1ZM6 5.5v4h1v-4H6Zm.777 4.416l3-2l-.554-.832l-3 2l.554.832Zm3-2.832l-3-2l-.554.832l3 2l.554-.832Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="dribble" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+          d="M4.839 1.024c3.346 4.041 5.096 7.922 5.704 12.782M.533 6.82c5.985-.138 9.402-1.083 11.97-4.216M2.7 12.594c3.221-4.902 7.171-5.65 11.755-4.293M14.5 7.5a7 7 0 1 0-14 0a7 7 0 0 0 14 0Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="cart" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M8.5 19a1.5 1.5 0 1 0 1.5 1.5A1.5 1.5 0 0 0 8.5 19ZM19 16H7a1 1 0 0 1 0-2h8.491a3.013 3.013 0 0 0 2.885-2.176l1.585-5.55A1 1 0 0 0 19 5H6.74a3.007 3.007 0 0 0-2.82-2H3a1 1 0 0 0 0 2h.921a1.005 1.005 0 0 1 .962.725l.155.545v.005l1.641 5.742A3 3 0 0 0 7 18h12a1 1 0 0 0 0-2Zm-1.326-9l-1.22 4.274a1.005 1.005 0 0 1-.963.726H8.754l-.255-.892L7.326 7ZM16.5 19a1.5 1.5 0 1 0 1.5 1.5a1.5 1.5 0 0 0-1.5-1.5Z" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="menu-btn"><span></span></a>
+
+  <div class="container-fluid overflow-hidden">
+
+    <header id="header-nav" class="col-lg-2 position-fixed px-5 bg-white h-100">
+      <div class="header-wrap d-flex flex-column justify-content-between h-100">
+        <div class="navigation">
+          <div class="site-logo mt-5 w-50 text-bg-dark p-3">
+            <a href="index.html">
+              <img src="images/main-logo.png" alt="logo" class="img-fluid">
+            </a>
+          </div>
+
+          <nav id="one-page-menu" class="vertical-menu my-5">
+            <ul class="menu-list list-unstyled">
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#experience" class="nav-link">Experience</a></li>
+              <li><a href="#portfolio" class="nav-link">Works</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+              
+
+            </ul>
+          </nav>
+        </div>
+        <div class="mt-5">
+          <div class="email-links">
+            <a href="mailto:frncsfndl.work@gmail.com" class="py-3 my-3 border-bottom d-flex">frncsfndl.work@gmail.com</a>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-start flex-wrap gap-3">
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="py-4 border-top">
+            <p>Francis Angelo Fundal</a></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="col-lg-10 offset-lg-2">
+      <div class="container">
+
+        <!-- content wrapper -->
+        <div class="justify-content-center px-1 mx-1 px-xl-5 mx-xl-5">
+
+          <section id="home" class="py-5 bg-text" data-text="01">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="banner-image text-center" data-aos="fade-right">
+                  <img src="images/mypicture.png" alt="banner" class="img-fluid" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5" data-aos="fade-in">
+                  <span class="text-muted text-uppercase">Thomasian / IT Strategy Consultant</span>
+                  <h1 class="banner-title mt-5 display-1 lh-1 txt-fx slide-up">Francis Fundal</h1>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="row">
+              <div class="col-lg-3">
+                <div class="icon-box" data-aos="fade-up">
+                  <span>01</span>
+                  <h3 class="sub-heading">UI/UX Design</h3>
+                  <p>At in proin consequat ut cursus venenatis sapien.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <span>02</span>
+                  <h3 class="sub-heading">Illustration</h3>
+                  <p>At in proin consequat ut cursus venenatis sapien.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <span>03</span>
+                  <h3 class="sub-heading">Graphic Design</h3>
+                  <p>At in proin consequat ut cursus venenatis sapien.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <a href="#portfolio" class="btn btn-dark text-uppercase py-4 px-5" data-aos="fade-up" data-aos-delay="300">View All Work</a>
+              </div>
+            </div> -->
+          </section>
+
+          <section id="about" class="my-5 py-5 bg-text" data-text="02">
+            <div class="row d-flex flex-wrap" data-aos="fade-up">
+              <div class="col-lg-6 pb-5">
+                <span class="text-muted text-uppercase">BIODATA</span>
+                <h2 class="display-4 txt-fx slide-up">Education</h2>
+                <div class="data-info py-3" data-aos="fade-up">
+                  <span class="meta-date">2020 - 2025</span>
+                  <h3 class="info-title">Bachelors in Science in Computer Science</h3>
+                  <p>University of Santo Tomas</p>
+                </div>
+                <div class="data-info" data-aos="fade-up" data-aos-delay="100">
+                  <span class="meta-date">2018 - 2020</span>
+                  <h3 class="info-title">Science, Technology, Engineering and Mathematics</h3>
+                  <p>Philippine Christian University - Dasmariñas</p>
+                </div>
+              </div>
+              <div class="col-lg-6 pb-5">
+                <h2 class="display-4 txt-fx slide-up">Experiences</h2>
+                <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
+                  <span class="meta-date">2025 - Present</span>
+                  <h3 class="info-title">Kyndryl: IT Strategy Consulting, Associate</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
+                </div>
+                <div class="data-info" data-aos="fade-up" data-aos-delay="300">
+                  <span class="meta-date">2025 - 2025</span>
+                  <h3 class="info-title">Computrade Technology PH: Cloud Engineering Intern</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex flex-wrap" data-aos="fade-up">
+              <div class="col-lg-6 pb-5">
+                <h2 class="display-4 txt-fx slide-up">Certifications</h2>
+                <div class="data-info py-3" data-aos="fade-up">
+                  <span class="meta-date">April 18, 2025</span>
+                  <h3 class="info-title">AWS Certified Solutions Architect - Associate</h3>
+                  <p></p>
+                </div>
+                <!-- <div class="data-info" data-aos="fade-up" data-aos-delay="100">
+                  <span class="meta-date">2013 - present</span>
+                  <h3 class="info-title">Studio Alpha.: Project Manager</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
+                </div> -->
+              </div>
+              <div class="col-lg-4 pb-5">
+                <h2 class="display-4 txt-fx slide-up">Badges</h2>
+                <div class="row g-3" data-aos="fade-up" data-aos-delay="200">
+                  <div class="col-4">
+                    <a href="https://www.credly.com/badges/920a2481-984f-4d20-852e-ab11294de2bf/public_url">
+                      <img class="img-fluid"
+                        src="https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/twitter_thumb_201604_image.png"
+                        alt="AWS Certified Solutions Architect"
+                      />
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="https://www.credly.com/badges/0881cdd4-9e29-4f76-a3ef-b9a4fef817ae/public_url">
+                      <img class="img-fluid"
+                        src="https://images.credly.com/size/340x340/images/ec621e2a-c8f0-4459-806c-ae11829d372a/image.png"
+                        alt="AWS Technology Cloud Essentials"
+                      />
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="https://www.credly.com/badges/d28e1204-7f5c-4786-8549-e18c80f3dbaf/public_url">
+                      <img class="img-fluid"
+                        src="https://images.credly.com/size/340x340/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png"
+                        alt="AWS Technology Architecting"
+                      />
+                    </a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="experience" class="my-5 py-5 bg-text" data-text="03">
+            <div class="row justify-content-center mb-5">
+              <div class="col-lg-6" data-aos="fade-up">
+                <span class="text-muted text-uppercase">introduction</span>
+                <h2 class="display-6 txt-fx slide-up">Fresh Innovative mind</h2>
+                <p class="text-justify"> I am an innovative Computer Science graduate specialized in machine
+                  learning development. I am also an AWS Certified Solutions Architect -
+                  Associate with hands-on experience in developing solutions in Cloud
+                  Computing environment and Vision Transformer-based disease
+                  classification models, Natural Language Processing, and responsive web
+                  applications. Skilled in leveraging tools such as Python, Java, and
+                  AWS Bedrock for real-world applications. Competent at problem-solving,
+                  collaboration, and project management, honed through leadership roles
+                  and technical projects. Passionate about driving technological
+                  advancements and contributing to impactful, user-centered innovations.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="portfolio" class="my-5 py-5 bg-text" data-text="04">
+            <div class="section-header my-5" data-aos="fade-up">
+              <div class="row justify-content-center g-5">
+                <div class="col-lg-4">
+                  <span class="text-muted text-uppercase">some of my recent works</span>
+                  <h2 class="display-4 txt-fx slide-up">OrganizationalInvolvement</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper portfolio-Swiper portfolio-content py-4" data-aos="fade-up">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="https://www.facebook.com/ThomasianGamingSociety" title="portfolio details"><img src="images/tgs-logo-bg.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">UST Thomasian Gaming Society</div>
+                    <a href="#" class="image-format bg-orange">svg</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="https://www.facebook.com/USTICSSC" title="portfolio details"><img src="images/icssc-logo-bg.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">UST ICS Student Council</div>
+                    <a href="#" class="image-format bg-orange">svg</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="https://www.facebook.com/awsust/" title="portfolio details"><img src="images/aws-logo.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">AWS Learning Club - UST</div>
+                    <a href="#" class="image-format bg-blue">psd</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="https://facebook.com/cnagics" title="portfolio details"><img src="images/cnag-logo.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">UST Cisco Networking Academy Gateway - CICS</div>
+                    <a href="#" class="image-format bg-blue">png</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="https://www.facebook.com/pcushsstemsoc" title="portfolio details"><img src="images/pcushsstem-logo.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">PCU SHS STEM Society</div>
+                    <a href="#" class="image-format">svg</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination mt-5"></div>
+            </div>
+          </section>
+
+          <section id="contact" class="my-5 py-5 bg-text" data-text="05">
+            <div class="container">
+              <div class="row justify-content-center mb-5">
+                <div class="col-lg-6" data-aos="fade-up">
+                  <span class="text-muted text-uppercase">Personal Info</span>
+                  <h2 class="display-2 txt-fx slide-up">Contact Me</h2>
+                  <p>If you have any questions, feel free to contact me through my Social Media Platforms or send an email</p>
+                </div>
+              </div>
+              <!-- <div class="row d-flex g-5">
+                <div class="col-lg-7" data-aos="fade-up">
+                  <h3>Frequently Asked Questions</h3>
+                  <div class="accordion" id="accordionExample2">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#accordion-collapse1" aria-expanded="true"
+                          aria-controls="accordion-collapse1">
+                          What experience do you have in my industry?
+                        </button>
+                      </h2>
+                      <div id="accordion-collapse1" class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                        <div class="accordion-body">
+                          Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#accordion-collapse2" aria-expanded="false"
+                          aria-controls="accordion-collapse2">
+                          How many clients do you typically work with at once?
+                        </button>
+                      </h2>
+                      <div id="accordion-collapse2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample2">
+                        <div class="accordion-body">
+                          Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#accordion-collapse3" aria-expanded="false"
+                          aria-controls="accordion-collapse3">
+                          Do you have the capacity to take on this project right now?
+                        </button>
+                      </h2>
+                      <div id="accordion-collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample2">
+                        <div class="accordion-body">
+                          Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-5">
+                  <div class="right-content" data-aos="fade-up">
+
+                    <div class="element-header align-right">
+                      <h3>Feel free to send me a message or any word of appreciation.</h3>
+                    </div>
+
+                    <div class="contact-form py-4">
+                      <form id="form" class="form-group">
+                        <div class="pb-2"><input type="text" name="name" placeholder="Your Full Name"
+                            class="form-control">
+                        </div>
+                        <div class="pb-2"><input type="text" name="address" placeholder="Your Email Address"
+                            class="form-control"></div>
+                        <div class="pb-2"><textarea placeholder="Your Message" rows="6" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" name="submit" class="btn btn-dark w-100 btn-rounded">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+              </div> -->
+            </div>
+          </section>
+
+        </div>
+        <!-- / content wrapper -->
+
+      </div>
+    </main>
+
+  </div>
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
