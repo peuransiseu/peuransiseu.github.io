@@ -691,3 +691,21 @@ width: 95%;
     right: 0;
   }
 }
+
+.text-responsive {
+  font-size: calc(6rem + 3vw);
+  font-weight: 700;
+  line-height: 1.1  ;
+}
+
+@media (max-width: 991px) {
+  .text-responsive {
+    font-size: calc(5rem + 2vw);
+  }
+}
+
+@media (max-width: 576px) {
+  .text-responsive {
+    font-size: calc(4rem + 1.5vw);
+  }
+}
