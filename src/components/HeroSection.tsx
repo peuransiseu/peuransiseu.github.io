@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImg from "@/assets/profile-placeholder.jpg";
+import profileImg from "@/assets/mynewpicture.png";
 
 const HeroSection = () => {
   return (
@@ -14,7 +14,7 @@ const HeroSection = () => {
             className="order-2 lg:order-1"
           >
             <div className="relative w-full max-w-md mx-auto lg:mx-0">
-              <div className="absolute -inset-4 bg-coral-light rounded-2xl -z-10" />
+              <div className="absolute -inset-4 bg-brand-light rounded-2xl -z-10" />
               <img
                 src={profileImg}
                 alt="Francis Fundal"
@@ -35,12 +35,12 @@ const HeroSection = () => {
             <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.95] text-foreground">
               Francis
               <br />
-              <span className="text-gradient-coral">Fundal</span>
+              <span className="text-gradient-brand">Fundal</span>
             </h1>
             <div className="mt-8 flex gap-4">
               <a
                 href="#about"
-                className="inline-block bg-primary text-primary-foreground px-8 py-3 font-body text-sm uppercase tracking-wider hover:bg-coral-dark transition-colors"
+                className="inline-block bg-primary text-primary-foreground px-8 py-3 font-body text-sm uppercase tracking-wider hover:bg-brand-dark transition-colors"
               >
                 About Me
               </a>

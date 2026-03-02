@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Facebook, Twitter, Instagram } from "lucide-react";
+import mainLogo from "@/assets/main-logo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -19,8 +20,8 @@ const Sidebar = () => {
     <div className="flex flex-col justify-between h-full py-8 px-6">
       <div>
         <div className="mb-10">
-          <div className="inline-block bg-primary px-4 py-2">
-            <span className="font-display text-primary-foreground text-xl font-bold tracking-tight">FF</span>
+          <div className="inline-block bg-primary p-3 w-14">
+            <img src={mainLogo} alt="FF Logo" className="w-full h-auto" />
           </div>
         </div>
         <nav className="space-y-1">
@@ -61,12 +62,10 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* Desktop sidebar */}
       <aside className="hidden lg:block fixed left-0 top-0 w-64 h-screen bg-sidebar z-50 overflow-y-auto">
         {sidebarContent}
       </aside>
 
-      {/* Mobile hamburger */}
       <button
         onClick={() => setMobileOpen(!mobileOpen)}
         className="lg:hidden fixed top-5 right-5 z-[60] p-2 bg-card rounded-md shadow-lg"
@@ -75,7 +74,6 @@ const Sidebar = () => {
         {mobileOpen ? <X size={24} className="text-foreground" /> : <Menu size={24} className="text-foreground" />}
       </button>
 
-      {/* Mobile sidebar overlay */}
       <AnimatePresence>
         {mobileOpen && (
           <>
