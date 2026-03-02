@@ -3,7 +3,10 @@ import profileImg from "@/assets/mynewpicture.png";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center py-20 overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center py-20 overflow-hidden"
+    >
       <span className="section-number">01</span>
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -30,7 +33,7 @@ const HeroSection = () => {
             className="order-1 lg:order-2"
           >
             <p className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-4">
-              Thomasian / IT Strategy Consultant
+              +1% each day | Thomasian
             </p>
             <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.95] text-foreground">
               Francis

@@ -7,11 +7,31 @@ import pcuLogo from "@/assets/pcushsstem-logo.jpg";
 import olaLogo from "@/assets/ola-logo.jpg";
 
 const orgs = [
-  { name: "UST Thomasian Gaming Society", url: "https://www.facebook.com/ThomasianGamingSociety", img: tgsLogo },
-  { name: "UST ICS Student Council", url: "https://www.facebook.com/USTICSSC", img: icsscLogo },
-  { name: "AWS Learning Club - UST", url: "https://www.facebook.com/awsust/", img: awsLogo },
-  { name: "UST CNAG - CICS", url: "https://facebook.com/cnagics", img: cnagLogo },
-  { name: "PCU SHS STEM Society", url: "https://www.facebook.com/pcushsstemsoc", img: pcuLogo },
+  {
+    name: "UST Thomasian Gaming Society",
+    url: "https://www.facebook.com/ThomasianGamingSociety",
+    img: tgsLogo,
+  },
+  {
+    name: "UST ICS Student Council",
+    url: "https://www.facebook.com/USTICSSC",
+    img: icsscLogo,
+  },
+  {
+    name: "AWS Learning Club - UST",
+    url: "https://www.facebook.com/awsust/",
+    img: awsLogo,
+  },
+  {
+    name: "UST CNAG - CICS",
+    url: "https://facebook.com/cnagics",
+    img: cnagLogo,
+  },
+  {
+    name: "PCU SHS STEM Society",
+    url: "https://www.facebook.com/pcushsstemsoc",
+    img: pcuLogo,
+  },
   { name: "OLA Supreme Student Council", url: "#", img: olaLogo },
 ];
 

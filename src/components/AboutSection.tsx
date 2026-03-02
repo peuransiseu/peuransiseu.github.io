@@ -10,24 +10,93 @@ const fadeUp = {
 };
 
 const educationData = [
-  { period: "2020 – 2025", title: "BS Computer Science", place: "University of Santo Tomas" },
-  { period: "2018 – 2020", title: "STEM Strand", place: "Philippine Christian University – Dasmariñas" },
+  {
+    period: "2020 – 2025",
+    title: "BS Computer Science (Cum Laude)",
+    place: "University of Santo Tomas",
+  },
+  {
+    period: "2018 – 2020",
+    title: "STEM Strand",
+    place: "Philippine Christian University – Dasmariñas",
+  },
 ];
 
 const experienceData = [
-  { period: "2025 – Present", title: "IT Strategy Consulting, Associate", place: "Kyndryl" },
-  { period: "2025", title: "Cloud Engineering Intern", place: "Computrade Technology Philippines" },
+  {
+    period: "2025 – 2026",
+    title: "IT Strategy Consulting, Associate",
+    place: "Kyndryl",
+  },
+  {
+    period: "2025",
+    title: "Cloud Engineering Intern",
+    place: "Computrade Technology Philippines",
+  },
 ];
 
 const certifications = [
-  { date: "April 16, 2025", title: "AWS Certified Solutions Architect – Associate" },
+  {
+    title: "AWS Certified Solutions Architect – Associate",
+  },
+  {
+    title: "AWS Certified: AI Practitioner",
+  },
+  {
+    title: "Microsoft Certified: Azure Fundamentals",
+  },
+  {
+    title: "Microsoft Certified: Azure AI Fundamentals",
+  },
+  {
+    title: "Google Certified: Cloud Digital Leader",
+  },
+  {
+    title: "Google Certified: Generative AI Leader",
+  },
 ];
 
 const badges = [
-  { img: "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/twitter_thumb_201604_image.png", url: "https://www.credly.com/badges/920a2481-984f-4d20-852e-ab11294de2bf/public_url", alt: "AWS Solutions Architect" },
-  { img: "https://images.credly.com/size/680x680/images/7cf036b0-c609-4378-a7be-9969e1dea7ab/blob", url: "https://www.credly.com/badges/0881cdd4-9e29-4f76-a3ef-b9a4fef817ae/public_url", alt: "Cloud Essentials" },
-  { img: "https://images.credly.com/size/340x340/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png", url: "https://www.credly.com/badges/d28e1204-7f5c-4786-8549-e18c80f3dbaf/public_url", alt: "Architecting" },
-  { img: "https://images.credly.com/size/680x680/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob", url: "https://www.credly.com/badges/481496c1-bbda-42a7-aa21-375b7ccc7744/public_url", alt: "Cloud Quest Practitioner" },
+  {
+    img: "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/twitter_thumb_201604_image.png",
+    url: "https://www.credly.com/badges/920a2481-984f-4d20-852e-ab11294de2bf/public_url",
+    alt: "AWS Solutions Architect",
+  },
+  {
+    img: "https://images.credly.com/size/680x680/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png",
+    url: "https://www.credly.com/badges/bbc19029-ca11-417f-b5fd-4f1ea67464a9/public_url",
+    alt: "AWS AI Practitioner",
+  },
+  {
+    img: "https://images.credly.com/size/340x340/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png",
+    url: "https://www.credly.com/badges/d28e1204-7f5c-4786-8549-e18c80f3dbaf/public_url",
+    alt: "Architecting",
+  },
+  {
+    img: "https://images.credly.com/size/680x680/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob",
+    url: "https://www.credly.com/badges/481496c1-bbda-42a7-aa21-375b7ccc7744/public_url",
+    alt: "Cloud Quest Practitioner",
+  },
+  {
+    img: "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+    url: "https://learn.microsoft.com/api/credentials/share/en-us/FrancisAngeloFundal-4483/1D65DE810E63C5F1?sharingId=AD81CF2C11B51E3B",
+    alt: "Azure Fundamentals",
+  },
+  {
+    img: "https://www.itta.net/wp-content/uploads/2023/01/azure-ai-fundamentals-600x600-1.png",
+    url: "https://learn.microsoft.com/api/credentials/share/en-us/FrancisAngeloFundal-4483/476915652F2A2F96?sharingId=AD81CF2C11B51E3B",
+    alt: "Azure AI Fundamentals",
+  },
+  {
+    img: "https://images.credly.com/size/680x680/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png",
+    url: "https://www.credly.com/badges/b59c24b0-38c5-4f04-9c38-b31f101efe33/public_url",
+    alt: "Cloud Digital Leader",
+  },
+  {
+    img: "https://images.credly.com/size/680x680/images/ec23e41a-0f32-4a98-9c00-28925621b281/blob",
+    url: "https://www.credly.com/badges/27b08d6c-41a1-4cfe-ae64-643b053c7c29/public_url",
+    alt: "Generative AI Leader",
+  },
 ];
 
 const AboutSection = () => {
@@ -48,58 +117,122 @@ const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           {/* Education */}
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            <motion.h2 custom={1} variants={fadeUp} className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.h2
+              custom={1}
+              variants={fadeUp}
+              className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8"
+            >
               Education
             </motion.h2>
             <div className="space-y-6">
               {educationData.map((item, i) => (
-                <motion.div key={i} custom={i + 2} variants={fadeUp} className="border-l-2 border-primary pl-6">
-                  <span className="text-xs uppercase tracking-wider text-primary font-body font-medium">{item.period}</span>
-                  <h3 className="font-display text-xl font-semibold text-foreground mt-1">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm mt-1">{item.place}</p>
+                <motion.div
+                  key={i}
+                  custom={i + 2}
+                  variants={fadeUp}
+                  className="border-l-2 border-primary pl-6"
+                >
+                  <span className="text-xs uppercase tracking-wider text-primary font-body font-medium">
+                    {item.period}
+                  </span>
+                  <h3 className="font-display text-xl font-semibold text-foreground mt-1">
+                    {item.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm mt-1">
+                    {item.place}
+                  </p>
                 </motion.div>
               ))}
             </div>
           </motion.div>
 
           {/* Experience */}
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            <motion.h2 custom={1} variants={fadeUp} className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.h2
+              custom={1}
+              variants={fadeUp}
+              className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8"
+            >
               Experience
             </motion.h2>
             <div className="space-y-6">
               {experienceData.map((item, i) => (
-                <motion.div key={i} custom={i + 2} variants={fadeUp} className="border-l-2 border-primary pl-6">
-                  <span className="text-xs uppercase tracking-wider text-primary font-body font-medium">{item.period}</span>
-                  <h3 className="font-display text-xl font-semibold text-foreground mt-1">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm mt-1">{item.place}</p>
+                <motion.div
+                  key={i}
+                  custom={i + 2}
+                  variants={fadeUp}
+                  className="border-l-2 border-primary pl-6"
+                >
+                  <span className="text-xs uppercase tracking-wider text-primary font-body font-medium">
+                    {item.period}
+                  </span>
+                  <h3 className="font-display text-xl font-semibold text-foreground mt-1">
+                    {item.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm mt-1">
+                    {item.place}
+                  </p>
                 </motion.div>
               ))}
             </div>
           </motion.div>
 
           {/* Certifications */}
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            <motion.h2 custom={1} variants={fadeUp} className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.h2
+              custom={1}
+              variants={fadeUp}
+              className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8"
+            >
               Certifications
             </motion.h2>
             <div className="space-y-6">
               {certifications.map((item, i) => (
-                <motion.div key={i} custom={i + 2} variants={fadeUp} className="border-l-2 border-primary pl-6">
-                  <span className="text-xs uppercase tracking-wider text-primary font-body font-medium">{item.date}</span>
-                  <h3 className="font-display text-xl font-semibold text-foreground mt-1">{item.title}</h3>
+                <motion.div
+                  key={i}
+                  custom={i + 2}
+                  variants={fadeUp}
+                  className="border-l-2 border-primary pl-6"
+                >
+                  <h3 className="font-display text-xl font-semibold text-foreground mt-1">
+                    {item.title}
+                  </h3>
                 </motion.div>
               ))}
             </div>
           </motion.div>
 
           {/* Badges */}
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            <motion.h2 custom={1} variants={fadeUp} className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.h2
+              custom={1}
+              variants={fadeUp}
+              className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-8"
+            >
               Badges
             </motion.h2>
-            <motion.div custom={2} variants={fadeUp} className="grid grid-cols-4 gap-4">
+            <motion.div
+              custom={2}
+              variants={fadeUp}
+              className="grid grid-cols-4 gap-4"
+            >
               {badges.map((badge, i) => (
                 <a
                   key={i}
@@ -108,7 +241,11 @@ const AboutSection = () => {
                   rel="noopener noreferrer"
                   className="bg-card rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow border border-border"
                 >
-                  <img src={badge.img} alt={badge.alt} className="w-full h-auto" />
+                  <img
+                    src={badge.img}
+                    alt={badge.alt}
+                    className="w-full h-auto"
+                  />
                 </a>
               ))}
             </motion.div>
