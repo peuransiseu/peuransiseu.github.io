@@ -27,7 +27,7 @@ const badges = [
   { img: "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/twitter_thumb_201604_image.png", url: "https://www.credly.com/badges/920a2481-984f-4d20-852e-ab11294de2bf/public_url", alt: "AWS Solutions Architect" },
   { img: "https://images.credly.com/size/680x680/images/7cf036b0-c609-4378-a7be-9969e1dea7ab/blob", url: "https://www.credly.com/badges/0881cdd4-9e29-4f76-a3ef-b9a4fef817ae/public_url", alt: "Cloud Essentials" },
   { img: "https://images.credly.com/size/340x340/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png", url: "https://www.credly.com/badges/d28e1204-7f5c-4786-8549-e18c80f3dbaf/public_url", alt: "Architecting" },
-  { img: "https://images.credly.com/size/680x680/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob", url: "https://www.credly.com/badges/481496c1-bbda-42a7-aa21-375b7ccc7744/public_url", alt: "Cloud Quest" },
+  { img: "https://images.credly.com/size/680x680/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob", url: "https://www.credly.com/badges/481496c1-bbda-42a7-aa21-375b7ccc7744/public_url", alt: "Cloud Quest Practitioner" },
 ];
 
 const AboutSection = () => {

@@ -46,7 +46,7 @@ const ContactSection = () => {
               href="https://www.linkedin.com/in/francisfundal/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 font-body text-sm uppercase tracking-wider hover:bg-coral-dark transition-colors rounded-lg"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 font-body text-sm uppercase tracking-wider hover:bg-brand-dark transition-colors rounded-lg"
             >
               <Linkedin size={18} />
               LinkedIn

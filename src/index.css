@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 210 11% 15%;
 
-    --primary: 2 100% 64%;
+    --primary: 197 100% 47%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 15 85% 95%;
+    --secondary: 197 60% 94%;
     --secondary-foreground: 210 11% 15%;
 
     --muted: 220 9% 94%;
     --muted-foreground: 215 14% 45%;
 
-    --accent: 15 85% 95%;
+    --accent: 197 60% 94%;
     --accent-foreground: 210 11% 15%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,23 +33,23 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 2 100% 64%;
+    --ring: 197 100% 47%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 210 11% 15%;
     --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 2 100% 64%;
+    --sidebar-primary: 197 100% 47%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 210 11% 22%;
     --sidebar-accent-foreground: 0 0% 90%;
     --sidebar-border: 210 11% 25%;
-    --sidebar-ring: 2 100% 64%;
+    --sidebar-ring: 197 100% 47%;
 
     /* Custom tokens */
-    --coral: 2 100% 64%;
-    --coral-light: 15 85% 95%;
-    --coral-dark: 2 76% 52%;
+    --brand: 197 100% 47%;
+    --brand-light: 197 60% 94%;
+    --brand-dark: 197 100% 38%;
     --charcoal: 210 11% 15%;
     --warm-gray: 30 5% 96%;
 
@@ -64,7 +64,7 @@
     --card-foreground: 0 0% 92%;
     --popover: 210 11% 13%;
     --popover-foreground: 0 0% 92%;
-    --primary: 2 100% 64%;
+    --primary: 197 100% 47%;
     --primary-foreground: 0 0% 100%;
     --secondary: 210 11% 18%;
     --secondary-foreground: 0 0% 92%;
@@ -76,15 +76,15 @@
     --destructive-foreground: 210 40% 98%;
     --border: 210 11% 22%;
     --input: 210 11% 22%;
-    --ring: 2 100% 64%;
+    --ring: 197 100% 47%;
     --sidebar-background: 210 11% 8%;
     --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 2 100% 64%;
+    --sidebar-primary: 197 100% 47%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 210 11% 15%;
     --sidebar-accent-foreground: 0 0% 90%;
     --sidebar-border: 210 11% 18%;
-    --sidebar-ring: 2 100% 64%;
+    --sidebar-ring: 197 100% 47%;
   }
 }
 
@@ -108,8 +108,8 @@
 }
 
 @layer utilities {
-  .text-gradient-coral {
-    background: linear-gradient(135deg, hsl(var(--coral)), hsl(var(--coral-dark)));
+  .text-gradient-brand {
+    background: linear-gradient(135deg, hsl(var(--brand)), hsl(var(--brand-dark)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
