@@ -3,8 +3,8 @@ import { Linkedin, Mail, Facebook, Instagram } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="relative py-24 bg-secondary overflow-hidden">
-      <span className="section-number opacity-50">05</span>
+    <section id="contact" className="relative py-24 overflow-hidden">
+      <span className="section-number">05</span>
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center">
           <motion.p
@@ -32,7 +32,8 @@ const ContactSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-muted-foreground text-lg font-body mb-10"
           >
-            If you have any questions, feel free to contact me through my social media platforms or send an email.
+            If you have any questions, feel free to contact me through my social
+            media platforms or send an email.
           </motion.p>
 
           <motion.div

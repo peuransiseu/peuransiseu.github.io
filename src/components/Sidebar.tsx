@@ -6,8 +6,8 @@ import mainLogo from "@/assets/main-logo.png";
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Introduction", href: "#intro" },
-  { label: "Works", href: "#works" },
+  { label: "Background", href: "#intro" },
+  { label: "Org Involvements", href: "#works" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -45,17 +45,32 @@ const Sidebar = () => {
           frncsfndl.work@gmail.com
         </a>
         <div className="flex gap-4">
-          <a href="https://www.facebook.com/Fundaldesu" className="text-sidebar-foreground/60 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.facebook.com/Fundaldesu"
+            className="text-sidebar-foreground/60 hover:text-primary transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Facebook size={18} />
           </a>
-          <a href="#" className="text-sidebar-foreground/60 hover:text-primary transition-colors">
+          <a
+            href="#"
+            className="text-sidebar-foreground/60 hover:text-primary transition-colors"
+          >
             <Twitter size={18} />
           </a>
-          <a href="https://www.instagram.com/hahafundal/" className="text-sidebar-foreground/60 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/hahafundal/"
+            className="text-sidebar-foreground/60 hover:text-primary transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Instagram size={18} />
           </a>
         </div>
-        <p className="text-xs text-sidebar-foreground/40 pt-2">Francis Angelo Fundal</p>
+        <p className="text-xs text-sidebar-foreground/40 pt-2">
+          Francis Angelo Fundal
+        </p>
       </div>
     </div>
   );
@@ -71,7 +86,11 @@ const Sidebar = () => {
         className="lg:hidden fixed top-5 right-5 z-[60] p-2 bg-card rounded-md shadow-lg"
         aria-label="Toggle menu"
       >
-        {mobileOpen ? <X size={24} className="text-foreground" /> : <Menu size={24} className="text-foreground" />}
+        {mobileOpen ? (
+          <X size={24} className="text-foreground" />
+        ) : (
+          <Menu size={24} className="text-foreground" />
+        )}
       </button>
 
       <AnimatePresence>

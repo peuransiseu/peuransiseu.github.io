@@ -37,7 +37,7 @@ const orgs = [
 
 const OrganizationsSection = () => {
   return (
-    <section id="works" className="relative py-24 overflow-hidden">
+    <section id="works" className="relative bg-secondary py-24 overflow-hidden">
       <span className="section-number">04</span>
       <div className="container mx-auto px-6">
         <motion.p
@@ -47,7 +47,7 @@ const OrganizationsSection = () => {
           transition={{ duration: 0.6 }}
           className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-2"
         >
-          Some of my recent involvements
+          Not just a technical guy...
         </motion.p>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -56,7 +56,7 @@ const OrganizationsSection = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-12"
         >
-          Organizations
+          Leadership Experience
         </motion.h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

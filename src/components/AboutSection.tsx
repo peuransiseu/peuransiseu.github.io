@@ -17,7 +17,7 @@ const educationData = [
   },
   {
     period: "2018 – 2020",
-    title: "STEM Strand",
+    title: "Science, Technology, Engineering and Mathematics",
     place: "Philippine Christian University – Dasmariñas",
   },
 ];
@@ -101,7 +101,7 @@ const badges = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="relative py-24 overflow-hidden">
+    <section id="about" className="relative bg-secondary py-24 overflow-hidden">
       <span className="section-number">02</span>
       <div className="container mx-auto px-6">
         <motion.p
@@ -112,7 +112,7 @@ const AboutSection = () => {
           variants={fadeUp}
           className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-2"
         >
-          Biodata
+          About my background
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
@@ -178,7 +178,7 @@ const AboutSection = () => {
                   <h3 className="font-display text-xl font-semibold text-foreground mt-1">
                     {item.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm mt-1">
+                  <p className="text-muted-foreground text-md mt-1">
                     {item.place}
                   </p>
                 </motion.div>
