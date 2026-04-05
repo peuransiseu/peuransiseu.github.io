@@ -6,5 +6,5 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig({
    plugins: [react()],
-+  base: '/peuransiseu.github.io/'
+   base: '/peuransiseu.github.io/'
 })
