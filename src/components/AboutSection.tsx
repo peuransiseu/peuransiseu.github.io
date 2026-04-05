@@ -83,7 +83,7 @@ const badges = [
     alt: "Azure Fundamentals",
   },
   {
-    img: "https://www.itta.net/wp-content/uploads/2023/01/azure-ai-fundamentals-600x600-1.png",
+    img: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
     url: "https://learn.microsoft.com/api/credentials/share/en-us/FrancisAngeloFundal-4483/476915652F2A2F96?sharingId=AD81CF2C11B51E3B",
     alt: "Azure AI Fundamentals",
   },
